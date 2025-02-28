@@ -20,4 +20,4 @@ if prompt:= st.chat_input("Say something..."):
     st.markdown(prompt)
   response=st.session_state.chat.send_message(prompt)
   st.session_state.messages.append({"role":"assistant", "content" : response.text})
-  with
+  with 
